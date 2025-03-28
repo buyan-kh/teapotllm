@@ -6,3 +6,6 @@
 [Hyperparameters] The model was trained with various learning rates and monitored to ensure task specific performance was learned without catastrophic forgetting.
 
 Teapot is trained specifically for question answering use cases and is not intended to be used for code generation, creative writing or critical decision applications. Teapot has only been trained on specific languages supported by flan-t5 and has not been evaluated for performance in languages other than English.
+
+<img src="./synthqa_eval.jpg">
+<img src="./hallucination_metrics.png">
