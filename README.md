@@ -2,14 +2,18 @@
 
 RAG chat demo:
 Q: What landmark was constructed in the 1800s?
+
 A: According to the documents, it was built/constructed in 1889.
-📄 Retrieved: The Eiffel Tower is located in Paris, France. It was built in 1889 and stands 33...
+
+Retrieved: The Eiffel Tower is located in Paris, France. It was built in 1889 and stands 33...
 
 ---
 
 Q: How tall is the Eiffel Tower?
+
 A: Based on the documents, the height is 330 meters.
-📄 Retrieved: The Eiffel Tower is located in Paris, France. It was built in 1889 and stands 33...
+
+Retrieved: The Eiffel Tower is located in Paris, France. It was built in 1889 and stands 33...
 
 [Dataset] ~10mb synthetic dataset consisting of QnA pairs with a variety of task specific formats.
 [Methodology] The model is trained to mimic task specific output formats, and is scored based on its ability to output relevant, succint and verifiable answers in the requested format.
