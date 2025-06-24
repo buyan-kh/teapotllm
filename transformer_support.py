@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-# Load the model
+# Load the TeapotAI transformer model
 teapot_ai = pipeline("text2text-generation", "teapotai/teapotllm")
 
 context = """
@@ -12,4 +12,4 @@ question = "What is the height of the Eiffel Tower?"
 
 answer = teapot_ai(context+"\n"+question)
 
-print(answer[0].get('generated_text')) # => The Eiffel Tower stands at a height of 330 meters.
+print(answer[0].get('generated_text'))

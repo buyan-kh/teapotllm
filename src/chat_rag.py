@@ -1,5 +1,6 @@
 from teapotai import TeapotAI
-# Sample documents (in practice, these could be articles or longer documents)
+
+# Sample documents for RAG system
 documents = [
     "The Eiffel Tower is located in Paris, France. It was built in 1889 and stands 330 meters tall.",
     "The Great Wall of China is a historic fortification that stretches over 13,000 miles.",
@@ -11,7 +12,6 @@ documents = [
     "The Nile River is the longest river in the world, flowing through northeastern Africa.",
     "The Empire State Building is an iconic skyscraper in New York City that was completed in 1931 and stands at 1454 feet tall."
 ]
-
 
 # Initialize TeapotAI with documents for RAG
 teapot_ai = TeapotAI(documents=documents)
